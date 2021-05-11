@@ -6,7 +6,7 @@ Repository for my `CoordinatedBackgroundService` package and the related article
 
 ### Purpose
 
-A replacement for the .NET `IHostedService` which provides a separate initialization phase, distinct from the service startup phase. This can prevent startup race conditions in dependent services. Detailed examples are available in the article.
+A replacement for the .NET `IHostedService` which provides a separate initialization phase, distinct from the service execution phase. This can prevent startup race conditions in dependent services. Detailed examples are available in the article.
 
 ### Usage
 
