@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Jon McGuire</Authors>
+    <PackageVersion>1.0.0</PackageVersion>
+    <PackageId>CoordinatedBackgroundService</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>An implementation of IHostedService which separates initialization from execution.</Description>
+    <PackageProjectUrl>https://github.com/MV10/CoordinatedBackgroundService</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MV10/CoordinatedBackgroundService</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/MV10/CoordinatedBackgroundService/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>IHostedService;services</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.0" />
+  </ItemGroup>
+
+</Project>
